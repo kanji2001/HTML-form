@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.622);
+}
+p{
+    color:hwb(120 20% 10%);
+    font-weight: bold
+}
+
+form{
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    margin: 80px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+body{
+    background-color: darkslategrey;
+}
+
+.container{
+    display: flex;
+    gap: 5px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    position: relative;
+    
+}
+span{
+    color: white;
+    background-color:rgb(3, 127, 79); 
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#fname{
+    width: 200px;
+    text-transform: capitalize;
+    padding: 3px;
+
+}
+#lname{
+    width: 200px;
+    text-transform: capitalize;
+    padding: 3px;
+}
+
+#mail{
+    width: 405px;
+    padding: 3px;
+}
+.gender{
+    margin-right: 70px;
+}
+#income{
+    width: 160px;
+}
+.age{
+    position: absolute;
+    left: 225px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(169, 169, 169, 0.292);
+    height: 40px;
+    padding:8px 15px;
+}
+
+#btn{
+     padding: 4px 13px;
+     background-color: rgb(3, 127, 79);
+     border: none;
+     color: white;
+     border-radius: 5px;
+}

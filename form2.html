@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form creation</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <form>
+        <h1>Create Account</h1>
+        <div class="container">
+            <div class="first name">
+                <p class="text-color">First name*</p>
+                <input type="text" name="First name" placeholder="enter your first name" required id="fname">
+            </div>
+            <div class="last name">
+                <p class="text-color">Last name</p>
+                <input type="text" name="Last name" placeholder="enter your last name" required id="lname">
+            </div>
+        </div>
+        <div class="container">
+        <div class="email">
+            <p>Email*</p>
+            <input type="email" name="mail" placeholder="Enter your email" id="mail">
+        </div>
+        </div>
+        <div class="container">
+            <div class="pass">
+                <p>Password*</p>
+                <input type="password" name="password1" placeholder="enter your password" id="fname">
+            </div>
+            <div class="confirm_pass">
+                <p> Confirm Password*</p>
+                <input type="password" name="password2" placeholder="enter your password again" id="fname">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="gender">
+                <p>gender</p>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">female
+            </div>
+            <div class="check_box">
+                <p>Hobbies</p>
+                <input type="checkbox">Music
+                <input type="checkbox">Sport
+                <input type="checkbox">Travel
+                <input type="checkbox">Movies
+            </div>
+        </div>
+
+            <div class="container">
+            <div>
+                <p>Source of income</p>
+                <select name="Income" id="lname">
+                    <option value="employed">employed</option>
+                    <option value="unemployed">unemployed</option>
+                    <option value="educated">educated</option>
+                    <option value="uneducated">uneducated</option>
+                    <option value="student">student</option>
+                </select>
+            </div>
+            <div>
+                <p>Income</p>
+                <input type="range" id="income"><span>20K</span>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="upload">
+                <p>Upload Profile picture</p>
+                <input type="file" name="Profile" id="">
+            </div>
+            <div class="age">
+                <p>Age</p>
+                <input type="number" name="" id="fname" value="18">
+            </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <p>Bio</p>
+            <textarea name="bio" id="" cols="54" rows="4"></textarea>
+            </div>
+        </div>
+
+         <footer>
+            <div>*required</div>
+            <div>
+                <input type="submit" value="Create" id="btn">
+            </div>
+         </footer>
+    </form>
+</body>
+</html>
